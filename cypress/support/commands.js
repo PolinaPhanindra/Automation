@@ -1,4 +1,4 @@
-// cypress/support/commands.js
+
 
 // Custom command to perform Amazon login and 
 Cypress.Commands.add('amazonLogin', (email, password) => {
