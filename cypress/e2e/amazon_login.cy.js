@@ -5,7 +5,7 @@ describe('Amazon Login and API Automation with POM', () => {
   
   // Load fixture data before the test
   before(() => {
-    cy.fixture('amazon_users').as('users');
+    cy.fixture('Amazon_users').as('users');
   });
 
   afterEach(function () {
